@@ -1,0 +1,176 @@
+/*nav bar*/
+#top_nav{
+    background-color: #daac00 !important;
+    padding: 0 8%;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 25px;
+    
+}
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position:relative;
+    left:47px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+    margin-bottom: 10px;
+
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbtn{
+    position:relative;
+    z-index: 50;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    margin-bottom:10px;
+}
+#bannerimg{
+    float: left;
+}
+/*banner*/
+
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+#bannerh{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bannerp{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#btn1{
+    background-color: #00bec9;
+    border: 2px solid;
+    color: white;
+}
+#btn2{
+    
+    border: 2px solid;
+    color: white;
+    margin-left: 10px;
+}
+/*service*/
+#servicetext{
+    padding-top: 10%;
+    padding-bottom:5% ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#servicebtn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+#serviceimage{
+    padding-top: 35px;  
+    padding-left: 275px;
+    padding-bottom: 2px;
+    
+}
+#counterid{
+    background-image: url(../pexels-tima-miroshnichenko-6235049.jpg);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+}
+.counter-icon{
+    font-size: 70px;
+}
+@media only screen and (max-width:500px){
+    .counter-icon{ 
+        font-size: 50px;
+    }
+}
+/*blog*/
+#blog{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#blogh{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+#blogp{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.article{
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: 0%;
+}
+.article-date,.article-link{
+    color: #00bec9;
+}
+/*footer*/
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footerform{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-search-box{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+#footer-search-submit{
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+.social-icon{
+    font-size: 25px;
+    padding-left: 5px;
+}
+@media  only screen  and (max-width: 1150px) {
+    #footer-search-box{
+        max-width: 200px;
+    }
+}
+
+@media  only screen  and (max-width: 768px) {
+    #footer-search-box{
+        max-width: 120px;
+    }
+}
+
+@media  only screen  and (max-width: 500px) {
+    #footer-search-box{
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 50px;
+    }
+}
