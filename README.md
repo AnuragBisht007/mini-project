@@ -1,4 +1,4 @@
 # mini-project
 this is  basic responsive project
 
-Author -Anurag Bisht
+Author -Anurag Bisht(happy)
